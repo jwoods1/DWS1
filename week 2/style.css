@@ -1,0 +1,90 @@
+/*
+CSS color
+Add foreground and background colors using:
+RGB, Hex, or HSL values (no Color Keywords)
+Add opacity using:
+Opacity, RGBA, or HSLA
+Styling text
+The following CSS properties should be used:
+font-family
+font-size
+font-weight
+font-style
+line-height
+text-align or text-indent
+text-shadow
+Add a web based font using:
+<link /> or @font-face
+Style all of your links (including images) using the following CSS pseudo-classes:
+a:link
+a:visited
+a:hover
+a:active
+Change the default list styling using:
+list-style-type
+Box model
+The following CSS properties should be used:
+width
+height
+padding
+border
+margin
+Center your page using:
+width
+auto margins
+Add rounded corners using:
+border-radius
+Add box shadow using:
+box-shadow
+Change the display of elements from their default (including image links) using:
+display
+Comments
+Add comments to both your HTML and CSS to help with organization. For example, HTML comments where divs close ("end content") and CSS comments to split the stylesheet into different sections ("main styles", "navigation", "layout", etc.).
+Validation
+Make sure both your HTML and CSS are valid using the W3C Validation Services.
+*/
+body {
+  background-color: #000;
+  font-family: "Times New Roman",Georgia,Serif;
+  color: rgba(187, 255, 199, 1);
+}
+.content{
+  margin-right: 100px;
+  margin-left: 100px;
+  background-color: rgba(127, 107, 255, 0.5);
+  border-style: solid;
+  border-radius: 30px;
+  border-color: rgb(127, 107, 255);
+  padding:20px;
+}
+h1{
+  text-align: center;
+  color:#fff;
+}
+.nav {
+  list-style-type: none;
+  font-weight: bold;
+  background-color: #101010;
+  width: 300px;
+  border-style: solid;
+  border-width: 5px;
+}
+.nav li a{
+  color: #999999;
+}
+.nav li a:hover{
+  color: rgba(255, 255, 255, 0.8);
+}
+.nav li a:visited{
+  color: rgba(17, 77, 177, 0.8);
+}
+.nav li ul {
+  margin-left: -30px;
+  list-style-type: none;
+  font-size: .8em;
+  font-style: italic;
+}
+p{
+  line-height: 20px;
+  text-indent: 10px;
+}
