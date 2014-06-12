@@ -117,15 +117,20 @@ p{
   font-size: .7em;
   
 }
-.gallery figure a img:hover{
-  border-style: solid;
-  border-color: #999;
-  border-width: 2px;
-  box-shadow: 0 0 10px #ccc;
+.gallery figure a{
+  color: #999999;
+  text-decoration: none;
+}
+.gallery figure a:hover{
+  box-shadow: 5px 5px 2px #888888;
 }
 .gallery figure a img{
   width:100px;
   height:100px;
+  border-style: solid;
+  border-color: #999;
+  border-width: 2px;
+  box-shadow: inherit;
 }
 .ref{
   font-weight: bold;
