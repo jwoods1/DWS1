@@ -83,7 +83,7 @@ h1{
   color: rgba(255, 255, 255, 0.8);
 }
 .nav li a:visited{
-  color: #999991;
+  color: rgba(127, 107, 255, 0.5);
 }
 .nav li ul {
   margin-left: -30px;
