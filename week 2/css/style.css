@@ -1,51 +1,7 @@
-/*
-CSS color
-Add foreground and background colors using:
-RGB, Hex, or HSL values (no Color Keywords)
-Add opacity using:
-Opacity, RGBA, or HSLA
-Styling text
-The following CSS properties should be used:
-font-family
-font-size
-font-weight
-font-style
-line-height
-text-align or text-indent
-text-shadow
-Add a web based font using:
-<link /> or @font-face
-Style all of your links (including images) using the following CSS pseudo-classes:
-a:link
-a:visited
-a:hover
-a:active
-Change the default list styling using:
-list-style-type
-Box model
-The following CSS properties should be used:
-width
-height
-padding
-border
-margin
-Center your page using:
-width
-auto margins
-Add rounded corners using:
-border-radius
-Add box shadow using:
-box-shadow
-Change the display of elements from their default (including image links) using:
-display
-Comments
-Add comments to both your HTML and CSS to help with organization. For example, HTML comments where divs close ("end content") and CSS comments to split the stylesheet into different sections ("main styles", "navigation", "layout", etc.).
-Validation
-Make sure both your HTML and CSS are valid using the W3C Validation Services.
-*/
+
 body {
   background-color: #000;
-  font-family: "Times New Roman",Georgia,Serif;
+  font-family: "Open Sans","Times New Roman",Georgia,Serif;
   color: rgba(187, 255, 199, 1);
 }
 /*main content on page*/
@@ -64,23 +20,38 @@ h1{
 
 }
 /*Top nav group*/
+#navgroup{
+  float: left;
+  width: 30%;
+  margin: 5px;
+}
+#def{
+  float: left;
+  width:60%;
+  margin:5px;
+}
 .nav {
   list-style-type: none;
   font-weight: bold;
   background-color: #373d45;
-  width: 300px;
   border-style: solid;
-  border-width: 5px;
+  border-width: 2px;
   border-color: #292d33;
-  padding:20px;
-  box-shadow: 5px 5px 2px #888888;
+  padding:5px;
+  box-shadow: 1px 1px 1px #888888;
 }
 .nav li a{
   color: #999999;
   text-decoration: none;
 }
+.nav li a:link{
+  color: #000;
+}
 .nav li a:hover{
   color: rgba(255, 255, 255, 0.8);
+}
+.nav li a:active{
+  color: #fff;
 }
 .nav li a:visited{
   color: rgba(127, 107, 255, 0.5);
@@ -108,6 +79,15 @@ p{
   line-height: 20px;
   color:#fff;
   text-indent: 10px;
+}
+.col{
+  float:left;
+  width:100%;
+}
+.col2{
+  float:left;
+  width:45%;
+  margin:5px;
 }
 .gallery figure{
   display: inline-block;
