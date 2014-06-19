@@ -1,59 +1,12 @@
-<<<<<<< HEAD
-/*
-Your project should demonstrate your proficiency with these concepts:
-
-Layout
-Backgrounds
-Comments
-Validation
-You will be graded on your ability to demonstrate a proficiency in each of these 
-concepts and you will see these reflected in the grading rubric provided. 
-Below are the concepts broken down into the requirements for the project:
-
-Layout
-  Create a two or three column layout with floats and <div> elements, using the following CSS properties:
-  width
-  float
-  padding
-  margin
-  clear
-Backgrounds
-  Add a repeating background image using these CSS properties:
-  background-image
-  background-repeat
-  background-position
-  Add a non-repeating background image using these CSS properties:
-  background-image
-  background-repeat
-  background-position
-Add a CSS gradient using this CSS property:
-  background
-Comments
-  Add comments to both your HTML and CSS to help with organization. For example, 
-  HTML comments where divs close ("end content") and CSS comments to split the stylesheet into
-  different sections ("main styles", "navigation", "layout", etc.).
-Validation
-  Make sure both your HTML and CSS are valid using the W3C Validation Services.
-*/
-=======
-
->>>>>>> 56bb72f2344e66ef350ab4315d65e2faf20ac493
 body {
   background-color: #333;
   font-family: "Open Sans","Times New Roman",Georgia,Serif;
   color: rgba(187, 255, 199, 1);
-<<<<<<< HEAD
-  background-image: url("../images/mxdy.png");
-  background-repeat: repeat-y;
-  background-position: left;
-}
-=======
   /*background:rgba(22, 5, 46, 0.3), url("../images/mxdy.png") repeat-y left;
 */
 background: linear-gradient(rgba(22, 5, 46, 0.8),rgba(22, 5, 46, 0.8)), url('../images/mxdy.png') repeat-y right,url('../images/mxdy.png') repeat-y left;
 }
 
->>>>>>> 56bb72f2344e66ef350ab4315d65e2faf20ac493
 /*main content on page inside*/
 .content{
   width:900px;
@@ -83,23 +36,15 @@ h1{
   float: left;
   width:60%;
   margin:5px;
-<<<<<<< HEAD
-  padding:2px;
-=======
   padding:5px;
 }
 .mainDef{
   font-size: 1.4em;
->>>>>>> 56bb72f2344e66ef350ab4315d65e2faf20ac493
 }
 .nav {
   list-style-type: none;
   font-weight: bold;
-<<<<<<< HEAD
-  background-color: #373d45;
-=======
   background-color: #5C636D;
->>>>>>> 56bb72f2344e66ef350ab4315d65e2faf20ac493
   border-style: solid;
   border-width: 2px;
   border-color: #292d33;
@@ -135,11 +80,7 @@ h2{
 }
 h3{
   background:url('../images/raceicon.png') repeat-x,linear-gradient(#0e0e0e,#7d7e7d);
-<<<<<<< HEAD
-  border-style: dashed;
-=======
   border-style: solid;
->>>>>>> 56bb72f2344e66ef350ab4315d65e2faf20ac493
   border-color: #999991;
   border-width: 2px;
   width:auto;
