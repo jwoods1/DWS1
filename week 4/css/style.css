@@ -1,0 +1,225 @@
+body {
+  background-color: #333;
+  font-family: "Open Sans","Times New Roman",Georgia,Serif;
+  color: rgba(187, 255, 199, 1);
+  /*background:rgba(22, 5, 46, 0.3), url("../images/mxdy.png") repeat-y left;
+*/
+background: linear-gradient(rgba(22, 5, 46, 0.8),rgba(22, 5, 46, 0.8)), url('../images/mxdy.png') repeat-y right,url('../images/mxdy.png') repeat-y left;
+}
+aside{
+  float: left;
+  width: 20%;
+  margin: 5px;
+  padding:2px;
+}
+
+/*main content on page inside*/
+#page{
+  width:80%;
+  margin-right:auto;
+  margin-left:auto;
+  background-color: rgba(127, 107, 255, 0.5);
+  border-radius: 30px;
+  border:2px solid rgb(127, 107, 255);
+  padding:20px;
+  overflow: auto;
+}
+/*title heading */
+header{
+  text-align: center;
+  color:#fff;
+  width:95%;
+  margin-right:auto;
+  margin-left: auto;
+}
+h1{
+  background:#50327E;
+}
+/*Top nav group*/
+nav {
+  list-style-type: none;
+  font-weight: bold;
+  background-color: #5C636D;
+  border:2px solid #292d33;
+  padding:1px;
+  box-shadow: 1px 1px 1px #888888;
+  margin-top:-10px;
+  height:100px;
+}
+nav li{
+  display:inline;
+  margin-left: 20px
+}
+
+nav li a{
+  color: #999999;
+  text-decoration: none;
+}
+nav li a:link{
+  color: #000;
+}
+nav li a:hover{
+  color: rgba(255, 255, 255, 0.8);
+}
+nav li a:active{
+  color: #fff;
+}
+nav li a:visited{
+  color: rgba(127, 107, 255, 0.5);
+}
+nav li ul {
+  margin-left: -30px;
+  list-style-type: none;
+  font-size: .8em;
+  font-style: italic;
+}
+nav li ul li{
+  margin-left: 10px;
+  display:inline;
+}
+/*def on side of nav */
+#def{
+  float: left;
+  width:95%;
+  margin:5px;
+  padding:5px;
+}
+.mainDef{
+  font-size: 1.4em;
+}
+
+/*Body paragraphs*/
+h2{
+  text-decoration: underline;
+  color:#999;
+}
+h3{
+  background:url('../images/raceicon.png') no-repeat,linear-gradient(#0e0e0e,#7d7e7d);
+  width:auto;
+  border:2px solid #999991;
+  text-align: center;
+  color:#fff;
+}
+p{
+  line-height: 20px;
+  color:#fff;
+  text-indent: 10px;
+}
+section{
+  float:left;
+  width:45%;
+  margin:5px;
+  clear:left;
+}
+aside{
+  float:right;
+  width:45%;
+  margin:5px;
+}
+.gallery figure{
+  display: inline-block;
+  
+}
+.gallery figure figcaption{
+  font-size: .7em;
+  
+}
+.gallery figure a{
+  color: #999999;
+  text-decoration: none;
+}
+.gallery figure a:hover{
+  box-shadow: 5px 5px 2px #888888;
+}
+.gallery figure a img{
+  width:100px;
+  height:100px;
+  border:2px solid #999;
+  box-shadow: inherit;
+}
+/*Table*/
+table{
+    width:100%;
+    padding:5px;
+    background-color: #888;
+}
+table,td,th{
+  border: 1px solid #000;
+  border-collapse:collapse;
+  font-size: 1em;
+}
+th{
+  text-transform: uppercase;
+}
+td{
+  text-align: center;
+  padding:3px;
+}
+tr:hover{
+  background-color: rgba(127, 107, 255, 0.5);
+}
+/*Form
+width
+float
+padding
+margin
+font-size
+color
+border
+text-align
+background-color or background-image
+:hover
+:focus*/
+form{
+  width:90%;
+  overflow:auto;
+  margin-right: auto;
+  margin-left: auto;
+  background: #EEE;
+  padding:5px 10px 5px 10px;
+  color:#000;
+  font-size: 1.2em;
+  border:2px solid #292d33;
+}
+form label{
+  float:left;
+  clear:both;
+}
+.sex{
+  float:left;
+  clear:both;
+}
+input:focus, textarea:focus {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid rgba(81, 203, 238, 1);
+}
+input:hover, textarea:hover{
+  box-shadow: 0 0 5px rgba(127, 107, 255, 0.5);
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid rgba(127, 107, 255, 0.5);
+}
+/*footer*/
+footer{
+  font-weight: bold;
+  clear:both;
+
+}
+footer ul li{
+  text-decoration: none;
+  display:inline-block;
+  margin-left: 10px;
+}
+footer a {
+  color: #999999;
+  text-decoration: none;
+  display:inline;
+}
+footer a:hover{
+  color: rgba(255, 255, 255, 0.8);
+}
+footer a:visited{
+  color: #999991;
+}
